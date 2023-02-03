@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Game</title>
+    <!-- font cdn -->
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./image/cute-pig-cartoon_160606-432.webp" type="image/x-icon">
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <main class="main">
+        <!-- player 1 -->
+    <section class="player player--0 player--active" id="player--0">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score" id="score--0" id="score--0">43</p>
+        <div class="current">
+        <p class="current-label">Current</p>
+        <p class="current-score" id="current--0">0</p>
+        </div>
+    </section>
+    <!-- player 2 -->
+    <section class="player player--1" id="player--1">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">24</p>
+        <div class="current">
+        <p class="current-label">Current</p>
+        <p class="current-score" id="current--1">0</p>
+        </div>
+    </section>
+
+    <!-- img button section -->
+    <img src="./image/dice-1.webp" alt="Playing dice" class="dice" id="dice"/>
+    <button class="btn btn--new " id="btn--new">🔄 New game</button>
+    <button class="btn btn--roll" id="btn--roll">🎲 Roll dice</button>
+    <button class="btn btn--hold" id="btn--hold">📥 Hold</button>
+    </main>
+    <!-- script -->
+    <script src="./script.js"></script>
+</body>
+</html>
